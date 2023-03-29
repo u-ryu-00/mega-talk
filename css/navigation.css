@@ -1,0 +1,61 @@
+#navigation ul li{
+display:inline-block;
+}
+
+#navigation ul{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#navigation .friend{
+    background-image: url(../images/add-friend.png) ;
+    width:15vw;
+}
+
+#navigation .chatting{
+    background-image: url(../images/chat-blank.png) ;
+    width:15vw;
+}
+
+#navigation .view{
+    background-image: url(../images/view-blank.png) ;
+    width:15vw;
+}
+
+#navigation .shopping{
+    background-image: url(../images/shopping-blank.png) ;
+    width:15vw;
+}
+
+#navigation .more{
+    background-image: url(../images/more-blank.png) ;
+    width:15vw;
+}
+
+#navigation li{
+    width: 13vw;
+    height: 13vh;
+}
+
+#navigation a {
+    display: block;
+    padding: 2vw;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 40%;
+    text-indent: -10000px;
+    overflow: hidden;
+}
+
+#navigation {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 0 5vw;
+    width: 100%;
+    height: 17vw;
+    background-color: #EFEFEF;
+    border-top: 1px solid #DDD;
+}

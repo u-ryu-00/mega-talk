@@ -1,0 +1,28 @@
+#friends .title h2, button{
+    display:inline-block;
+}
+
+#friends .title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#friends h2{
+    margin-top: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#friends a{
+    display:flex;
+    align-items: center;
+    height:20vw;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#friends button{
+    border:none;
+}
