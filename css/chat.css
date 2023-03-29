@@ -1,0 +1,92 @@
+header .back {
+    display: block;
+    width: 5vw;
+    height: 5vw;
+    background: url("../images/chevron-left-black.png") no-repeat 0 0;
+    background-size: contain;
+    text-indent: -10000px;
+    overflow: hidden;
+}
+ 
+#conversation .avatar, #conversation .contents{
+    display:inline-block;
+}
+
+#conversation li {
+    display: flex;
+    padding: 3vw 4.2vw; 
+}
+
+#conversation time {
+    font-size: 3vw;
+    width: 25vw;
+    align-self:flex-end;
+    color: #666;
+}
+
+#reply .plus {
+    background-image: url("../images/plus.png");
+}
+
+#reply .emoji {
+    background-image: url("../images/emoji.png");
+}
+
+#reply .send {
+    background-image: url("../images/enter.png");
+}
+
+#reply {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5vw 2.5vw 5vw;
+    width: 100%;
+    background-color: #FFF;
+}
+
+#reply button {
+    width: 5vw;
+    height: 5vw;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    text-indent: -10000px;
+    overflow: hidden;
+    border:none;
+}
+
+main{
+    height:10000vw;
+    background-color: #AEC0CE;
+}
+
+.message{
+    font-size:1em;
+    background-color: #FFF;
+    padding: 2vw;
+    border-radius: 15px;
+}
+
+#reply form {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5vw;
+    padding: 1.5vw;
+    width: 91%;
+    border: 1px solid #C5C4C4;
+    border-radius: 2.5vw;
+    background-color: #F9F8F8;
+}
+
+#reply form input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+h2{
+    color: #666;
+    }

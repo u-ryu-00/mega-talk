@@ -1,0 +1,36 @@
+#no-mobile{
+    display:none;
+}
+
+@media (min-width: 600px) {
+    #no-mobile {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        z-index: 100;
+        color: #0F7562;
+        background-color: #FFDF23;
+    }
+
+    #no-mobile .logo{
+        background: url(../images/logo.png) no-repeat 0 50% ;
+        background-size:contain;
+        height:7em;
+        width:6em;
+        margin-bottom:1em;
+        text-indent:-10000px;
+    }
+}
+
+.avatar{
+    background-image: url(../images/avatar.png);
+    background-size: contain;
+    border-radius:30%;
+    height:4.5em;
+    width:4em;
+    text-indent:-10000px;
+}
