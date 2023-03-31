@@ -45,16 +45,4 @@
     color:gray
 }
 
-#conversation .message::after {
-    position: absolute;
-    top: 0;
-    display: block;
-    content: "";
-    left: -1vw;
-    width: 2vw;
-    height: 2vw;
-    border-top: 2vw solid #FFF;
-    border-right: 0 solid transparent;
-    border-bottom: 0 solid transparent;
-    border-left: 2vw solid transparent;
-}
+
