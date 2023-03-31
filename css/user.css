@@ -1,21 +1,25 @@
-.avatar{
+#user .avatar{
     display:inline-block;
 }
 
-p{
+#user p{
     display:inline-block;
     font-size: 4.5vw;
     font-weight: 700;
     margin-left: 3.8vw;
-    color: #000;
+    color: black;
     text-decoration: none;
 }
 
 #user a{
     display:flex;
     align-items: center;
-    height:30vw;
+    height:25vw;
     border-bottom: 1px solid gray;
     margin-left: 1em;
     margin-right: 1em;
+}
+
+#user .avatar {
+    transform: scale(1.2);
 }

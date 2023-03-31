@@ -7,15 +7,16 @@
     justify-content: space-between;
     margin-left: 1em;
     margin-right: 1em;
+    margin-top:5vw
 }
 
 #friends h2{
-    margin-top: 10px;
-    font-size: 1em;
-    margin-bottom: 10px;
+    font-size: 3.2vw;
+    font-weight: 400;
+    color: #666;
 }
 
-#friends a{
+#friends li a{
     display:flex;
     align-items: center;
     height:20vw;
@@ -24,5 +25,16 @@
 }
 
 #friends button{
-    border:none;
+    font-size: 3.2vw;
+    width: 3.5vw;
+    background: url(../images/chevron-down.png) no-repeat 0 50%;
+    background-size: contain;
+    text-indent: -1000px;
+    overflow: hidden;
+}
+
+#friends li p {
+    font-size: 4vw;
+    margin-left: 3vw;
+    color: #000;
 }

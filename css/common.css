@@ -20,17 +20,17 @@
         background: url(../images/logo.png) no-repeat 0 50% ;
         background-size:contain;
         height:7em;
-        width:6em;
+        width:7em;
         margin-bottom:1em;
         text-indent:-10000px;
     }
 }
 
 .avatar{
-    background-image: url(../images/avatar.png);
+    width: 13vw;
+    height: 13vw;
+    background:url(../images/avatar.png) no-repeat 0 50%;
     background-size: contain;
-    border-radius:30%;
-    height:4.5em;
-    width:4em;
+    border-radius:5vw;
     text-indent:-10000px;
 }

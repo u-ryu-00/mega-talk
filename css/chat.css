@@ -15,11 +15,12 @@ header .back {
 #conversation li {
     display: flex;
     padding: 3vw 4.2vw; 
+    gap:12px;
 }
 
 #conversation time {
     font-size: 3vw;
-    width: 25vw;
+    width: 30vw;
     align-self:flex-end;
     color: #666;
 }
@@ -63,13 +64,6 @@ main{
     background-color: #AEC0CE;
 }
 
-.message{
-    font-size:1em;
-    background-color: #FFF;
-    padding: 2vw;
-    border-radius: 15px;
-}
-
 #reply form {
     display: flex;
     justify-content: space-between;
@@ -89,4 +83,43 @@ main{
 
 h2{
     color: #666;
-    }
+    margin-bottom:1vw;
+}
+
+#conversation .message::after {
+    position: absolute;
+    top: 0;
+    display: block;
+    content: "";
+    left: -1vw;
+    width: 2vw;
+    height: 2vw;
+    border-top: 2vw solid #FFF;
+    border-right: 0 solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 2vw solid transparent;
+}
+
+#conversation .message {
+    position: relative;
+    font-size: 4vw;
+    font-weight: 400;
+    padding: 2vw;
+    border-radius: 3vw;
+    background-color: #FFF;
+}
+
+header .menu a {
+    background-image: url(../images/hamburger.png) no-repeat 0 0;
+    background-size: contain;
+    width: 5vw;
+    height: 5vw;
+    display: block;
+}
+
+#reply form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
